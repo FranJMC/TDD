@@ -13,8 +13,8 @@ public void setUp(){
 }
 @Test
 public void addValueWithPut(){
-	ArrayAsociativo b = new ArrayAsociativo();
-	assertArrayEquals(expecteds, actuals);()
+	ArrayAsociativo b = new ArrayAsociativo("nombre","luis");
+	assertArrayEquals(b,a.put("nombre","luis"));
 	
 }
 
