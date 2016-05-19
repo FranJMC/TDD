@@ -34,6 +34,14 @@ public class testArray {
 	public void getOrElseDefault() {
 		assertEquals("hola", a.getOrElse("nombre", "hola"));
 	}
+	@Test
+	public void containsKeyVacio(){
+		assertEquals(false,a.containsKey("nombre"));
+	}
+	@Test
+	public void containsKeyConValor(){
+		assertEquals(true, b.containsKey("nombre"));
+	}
 
 	@Test
 	public void CalcularTamVacio() {

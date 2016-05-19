@@ -62,6 +62,13 @@ public class ArrayAsociativo {
 		}
 		return cont;
 	}
+	public boolean containsKey(String clave){
+	  boolean res = false;
+	  if(this.get(clave)!=null){
+		  res = true;
+	  }
+	  return res;
+	}
 
 	public boolean remove(String clave) {
 		boolean res = false;
